@@ -93,16 +93,16 @@ body, html {
                     border: 1px solid black;
                 }
 
-            .app-support {
+            .app-sports-league {
                 display: flex;
                 gap: 10px;
             }    
 
-                .app-support-icon {
+                .app-league-icon {
                     border: 1px solid black;
                 }
 
-                .app-support-text {
+                .app-league-text {
                     border: 1px solid black;
                 }
 
