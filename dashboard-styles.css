@@ -164,81 +164,106 @@ body, html {
                         flex-direction: column;
                     } */
 
-                .user-event-bar-header {
-                    grid-column: 1 / 3;
-                    grid-row: 3;
-                    display: flex;
-                    flex-direction: row;
-                    gap: 10px;
-                    padding: 10px;
-                }
+/* Styles for event tables (e.g. NBA, NFL, NHL, etc.) */
 
-                .user-event-bar {
+                .event-table { 
                     grid-column: 1 / 3;
                     display: grid;
                     grid-template-columns: repeat(5, 1fr);
-                    grid-template-rows: repeat(2, 1fr);
+                    grid-template-rows: repeat(4, 1fr);
                     gap: 2px;
                     padding: 5px;
                     background-color: whitesmoke;
-                    border: 1px solid black;
+                    border: 1px solid black;    
                 }
 
-                    /* .card-title {
-
-                    } */
-
-                    .card-header {
-                        grid-row: 2;
-                        /* border-bottom: solid black; */
-                    }
-
-                    .card-bet-grid {
-                        grid-column: 3 / 6;
+                    .user-event-bar-header {
+                        grid-column: 1 / 6;
                         grid-row: 1 / 3;
                         display: grid;
-                        grid-template-columns: repeat(3, 1fr);
+                        grid-template-columns: repeat(5, 1fr);
+                        grid-template-rows: repeat(2, 1fr);
+                        gap: 10px;
+                        padding: 10px;
+                    }
+
+                        .card-header-today {
+                            grid-column: 1;
+                            grid-row: 2;
+                        }
+
+                        .card-header-spread {
+                            grid-column: 3;
+                            grid-row: 2;
+                        }
+
+                        .card-header-total {
+                            grid-column: 4;
+                            grid-row: 2;
+                        }
+
+                        .card-header-moneyline {
+                            grid-column: 5;
+                            grid-row: 2;
+                        }
+
+                    .user-event-bar {
+                        grid-column: 1 / 6;
+                        grid-row: 3 / 5;
+                        display: grid;
+                        grid-template-columns: repeat(5, 1fr);
                         grid-template-rows: repeat(2, 1fr);
                         gap: 2px;
+                        padding: 5px;
+                        background-color: whitesmoke;
                     }
 
-                    .card-game-team-home {
-                        grid-column: 1;
-                        grid-row: 1;
-                    }
-
-                    .card-game-score-home {
-                        grid-column: 2;
-                        grid-row: 1;
-                        display: flex;
-                        justify-content: flex-end;
-                        align-items: center;
-                        padding-right: 30px;
-                        font-weight: bold;
-                    }
-
-                    .card-game-team-away {
-                        grid-column: 1;
-                        grid-row: 2;
-                    }
-
-                    .card-game-score-away {
-                        grid-column: 2;
-                        grid-row: 2;
-                        display: flex;
-                        justify-content: flex-end;
-                        align-items: center;
-                        padding-right: 30px;
-                        font-weight: bold;
-                    }
-
-                        .bet-grid-content {
-                            background-color: gray;
-                            display: flex;
-                            /* flex-direction: column; */
-                            justify-content: center;
-                            align-items: center;
+                        .card-bet-grid {
+                            grid-column: 3 / 6;
+                            grid-row: 1 / 3;
+                            display: grid;
+                            grid-template-columns: repeat(3, 1fr);
+                            grid-template-rows: repeat(2, 1fr);
+                            gap: 2px;
                         }
+
+                        .card-game-team-home {
+                            grid-column: 1;
+                            grid-row: 1;
+                        }
+
+                        .card-game-score-home {
+                            grid-column: 2;
+                            grid-row: 1;
+                            display: flex;
+                            justify-content: flex-end;
+                            align-items: center;
+                            padding-right: 30px;
+                            font-weight: bold;
+                        }
+
+                        .card-game-team-away {
+                            grid-column: 1;
+                            grid-row: 2;
+                        }
+
+                        .card-game-score-away {
+                            grid-column: 2;
+                            grid-row: 2;
+                            display: flex;
+                            justify-content: flex-end;
+                            align-items: center;
+                            padding-right: 30px;
+                            font-weight: bold;
+                        }
+
+                            .bet-grid-content {
+                                background-color: gray;
+                                display: flex;
+                                /* flex-direction: column; */
+                                justify-content: center;
+                                align-items: center;
+                            }
 
         .user-dashboard-right {
             display: grid;
