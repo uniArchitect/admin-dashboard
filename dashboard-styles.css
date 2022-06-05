@@ -43,17 +43,22 @@ body, html {
             justify-content: space-between;
         }
 
-            .profile-picture-large {
-                border: 1px solid black;
+            .sportsbook-options {
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-start;
+                gap: 10px;    
             }
 
-            .username-expanded {
-                border: 1px solid black;
-            }
+                /* .option-tabs {
+                    
+                } */
 
-            /* .file-action {
-                
-            } */
+            .login-question {
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+            }
 
     .sidebar {
         border: 1px solid black;
