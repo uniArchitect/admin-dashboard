@@ -141,7 +141,7 @@ body, html {
             .user-projects {
                 display: grid;
                 grid-template-columns: 1fr 1fr;
-                grid-template-rows: 1fr .5fr repeat(3, 1fr);
+                /* grid-template-rows: 1fr .5fr repeat(3, 1fr); */
                 gap: 10px;
                 padding: 10px;
                 /* border: 1px solid black; */
@@ -242,7 +242,7 @@ body, html {
                         grid-row: 3 / 5;
                         display: grid;
                         grid-template-columns: repeat(5, 1fr);
-                        grid-template-rows: repeat(2, 1fr);
+                        grid-template-rows: repeat(2, minmax(38px, 1fr));
                         gap: 2px;
                         padding: 5px;
                     }
@@ -252,7 +252,7 @@ body, html {
                         grid-row: 5 / 7;
                         display: grid;
                         grid-template-columns: repeat(5, 1fr);
-                        grid-template-rows: repeat(2, 1fr);
+                        grid-template-rows: repeat(2, minmax(38px, 1fr));
                         gap: 2px;
                         padding: 5px;
                     }
