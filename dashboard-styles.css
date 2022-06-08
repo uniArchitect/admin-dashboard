@@ -23,6 +23,8 @@ body, html {
         display: grid;
         grid-template-columns: repeat(12 1fr);
         grid-template-rows: 1fr 1fr;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
         /* Reference DK / FD headers. Set up grid styles and flexbox the div containers for left / right sections of headers */
@@ -81,7 +83,15 @@ body, html {
                 }
 
                 .login {
-                    height: 24px;
+                    /* height: 24px; */
+                    font-weight: bold;
+                    color: #f8fafc;
+                    background-color: #F38630;
+                    border-radius: 5px;
+                    border: none;
+                    padding: 10px;
+                    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+                    transition: .3s;
                 }
 
     .sidebar {
@@ -272,6 +282,8 @@ body, html {
                         .card-game-team-home {
                             grid-column: 1;
                             grid-row: 1;
+                            display: flex;
+                            align-items: center;
                         }
 
                         .card-game-score-home {
@@ -287,6 +299,8 @@ body, html {
                         .card-game-team-away {
                             grid-column: 1;
                             grid-row: 2;
+                            display: flex;
+                            align-items: center;
                         }
 
                         .card-game-score-away {
