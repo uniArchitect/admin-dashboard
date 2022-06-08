@@ -42,6 +42,21 @@ body, html {
                 gap: 10px;
             }
 
+                .header-top-tab {
+                    font-weight: bolder;
+                    text-decoration: none;
+                }
+
+                .header-top-tab:visited {
+                    color: #e2e8f0;
+                    text-decoration: none;
+                }
+                
+                .header-top-tab:hover {
+                    color: #94a3b8;
+                    text-decoration: none;
+                }
+
             .header-top-right {
                 display: flex;
                 gap: 10px;
@@ -65,9 +80,20 @@ body, html {
                     padding-inline-start: 0px;  
                 }
 
-                /* .option-tabs {
-                    
-                } */
+                .option-tabs {
+                    font-weight: bolder;
+                    text-decoration: none;
+                }
+                
+                .option-tabs:visited {
+                    color: #e2e8f0;
+                    text-decoration: none;
+                }
+                
+                .option-tabs:hover {
+                    color: #94a3b8;
+                    text-decoration: none;
+                }
 
             .header-bottom-right {
                 display: flex;
@@ -86,7 +112,7 @@ body, html {
                     /* height: 24px; */
                     font-weight: bold;
                     color: #f8fafc;
-                    background-color: #F38630;
+                    background-color: #94a3b8;
                     border-radius: 5px;
                     border: none;
                     padding: 10px;
