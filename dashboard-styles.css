@@ -5,9 +5,9 @@ body, html {
         margin: 8px;
         margin-left: 32px;
         margin-right: 32px;
-        background-color: #031634;
+        background-color: #1e293b;
         font-family: 'Montserrat', sans-serif;
-        color: #e8ddcb;
+        color: #e2e8f0;
     }
 
     .container {
@@ -297,7 +297,7 @@ body, html {
                         }
 
                             .bet-grid-content {
-                                background-color: gray;
+                                background-color: #64748b;
                                 display: flex;
                                 /* flex-direction: column; */
                                 justify-content: center;
