@@ -223,6 +223,21 @@ body, html {
                         flex-direction: column;
                     } */
 
+                    .game-tab {
+                        font-weight: bolder;
+                        text-decoration: none;
+                    }
+                    
+                    .game-tab:visited {
+                        color: #e2e8f0;
+                        text-decoration: none;
+                    }
+                    
+                    .game-tab:hover {
+                        color: #94a3b8;
+                        text-decoration: none;
+                    }
+
 /* Styles for event tables (e.g. NBA, NFL, NHL, etc.) */
 
                 .event-table { 
