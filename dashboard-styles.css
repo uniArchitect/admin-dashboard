@@ -303,6 +303,10 @@ body, html {
                         padding: 5px;
                     }
 
+                        .card-title {
+                            font-weight: bold;
+                        }
+
                         .card-header-today {
                             grid-column: 1;
                             grid-row: 2;
@@ -357,6 +361,7 @@ body, html {
                             grid-row: 1;
                             display: flex;
                             align-items: center;
+                            font-weight: bold;
                         }
 
                         .card-game-score-home {
@@ -374,6 +379,7 @@ body, html {
                             grid-row: 2;
                             display: flex;
                             align-items: center;
+                            font-weight: bold;
                         }
 
                         .card-game-score-away {
