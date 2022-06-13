@@ -158,7 +158,18 @@ body, html {
                 } */
 
                 .app-link-text {
-                    /* border: 1px solid black; */
+                    font-weight: bolder;
+                    text-decoration: none;
+                }
+                
+                .app-link-text:visited {
+                    color: #e2e8f0;
+                    text-decoration: none;
+                }
+                
+                .app-link-text:hover {
+                    color: #94a3b8;
+                    text-decoration: none;
                 }
 
             .app-sports-league {
@@ -172,7 +183,18 @@ body, html {
 
                 .app-league-text {
                     font-size: small;
-                    /* border: 1px solid black; */
+                    font-weight: bolder;
+                    text-decoration: none;
+                }
+                
+                .app-league-text:visited {
+                    color: #e2e8f0;
+                    text-decoration: none;
+                }
+                
+                .app-league-text:hover {
+                    color: #94a3b8;
+                    text-decoration: none;
                 }
 
 
