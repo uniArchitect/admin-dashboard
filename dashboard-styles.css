@@ -120,6 +120,16 @@ body, html {
                     transition: .3s;
                 }
 
+                button:hover {
+                    transition: .3s;
+                    background-color: #64748b;
+                    color: white;
+                }
+                
+                button:active {
+                    transform: translateY(2px);
+                }
+
     .sidebar {
         /* border: 1px solid black; */
         grid-column: 1;
