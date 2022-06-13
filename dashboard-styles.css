@@ -403,13 +403,13 @@ body, html {
         .user-dashboard-right {
             display: grid;
             grid-template-columns: 1fr;
-            grid-template-rows: 1fr 1fr;
+            grid-template-rows: 1fr 2fr;
         }
     
             .user-announcements {
                 display: grid;
                 grid-template-columns: 1 1fr;
-                grid-template-rows: 1fr 8fr;
+                grid-template-rows: repeat(4 1fr);
                 margin: 10px;
                 padding: 10px;
                 gap: 10px;
@@ -418,15 +418,31 @@ body, html {
                 border-radius: 10px;
             }
 
-                /* .user-announcements-title {
-                    height: 36px;
-                } */
+                .user-announcements-title {
+                    font-weight: bold;
+                    font-size: 18px;
+                }
 
-                /* .user-announcements-content {
-                    border-radius: 10px;
-                    padding: 10px;
-                    border: 1px solid black;
-                } */
+                .user-betslip-content {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                }
+                
+                    .user-announcements-content {
+                        display: flex;
+                        justify-content: center;
+                        text-align: center;
+                        align-items: center;
+                        font-weight: bold;
+                    }
+
+                    .user-betslip-content-text {
+                        display: flex;
+                        text-align: center;
+                        align-items: center;
+                    }
 
             .user-trending {
                 grid-row: 2;
