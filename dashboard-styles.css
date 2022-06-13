@@ -232,7 +232,25 @@ body, html {
                     border-radius: 10px;
                     padding: 10px;
                     background-color: #64748b;
+                    text-decoration: none;
                 }
+
+                    .user-promo-card:hover {
+                        transition: .1s;
+                        background-color: #64748b;
+                        color: white;
+                        border: 1px solid #f8fafc;
+                        text-decoration: none;
+                    }
+                
+                    .user-promo-card:active {
+                        transform: translateY(2px);
+                    }
+
+                    .user-promo-card:visited {
+                        color: #e2e8f0;
+                        text-decoration: none;
+                    }
 
                     /* .card-title {
 
@@ -435,6 +453,8 @@ body, html {
                 grid-template-columns: 1 1fr;
                 grid-template-rows: repeat(4 1fr);
                 margin: 10px;
+                margin-left: 0px;
+                margin-right: 0px;
                 padding: 10px;
                 gap: 10px;
                 background-color: #64748b;
@@ -474,6 +494,9 @@ body, html {
                 grid-template-columns: 1 1fr;
                 grid-template-rows: 1fr 8fr;
                 margin: 10px;
+                margin-top: 0px;
+                margin-left: 0px;
+                margin-right: 0px;
                 padding: 10px;
                 gap: 10px;
                 background-color: #64748b;
