@@ -442,6 +442,14 @@ body, html {
                                 align-items: center;
                             }
 
+                            .bet-grid-content:hover {
+                                transition: .1s;
+                                background-color: #64748b;
+                                color: white;
+                                border: 1px solid #f8fafc;
+                                text-decoration: none;
+                            }
+
         .user-dashboard-right {
             display: grid;
             grid-template-columns: 1fr;
@@ -513,3 +521,13 @@ body, html {
                     padding: 10px;
                     border: 1px solid black;
                 } */
+
+@media all and (max-width:1450px) {
+    .sportsbook-options {
+        display: none;
+    }
+}
+
+@media all and (max-width:1200px) {
+    
+}
