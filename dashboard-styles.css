@@ -5,9 +5,10 @@ body, html {
         margin: 8px;
         margin-left: 72px;
         margin-right: 72px;
+        /* background-color: #f8fafc; */
         background-color: #0f172a;
         font-family: 'Montserrat', sans-serif;
-        color: #e2e8f0;
+        color: #f8fafc;
     }
 
     .container {
@@ -25,6 +26,7 @@ body, html {
         grid-template-rows: 1fr 1fr;
         padding-left: 10px;
         padding-right: 10px;
+        color: #f8fafc;
     }
 
         /* Reference DK / FD headers. Set up grid styles and flexbox the div containers for left / right sections of headers */
@@ -146,6 +148,8 @@ body, html {
     
             .app-logo {
                 grid-column: 1 / 2;
+                font-weight: bold;
+                font-size: large;
             }
 
             .app-link {
@@ -521,6 +525,8 @@ body, html {
                     padding: 10px;
                     border: 1px solid black;
                 } */
+
+/* Media queries for smaller screen widths */
 
 @media all and (max-width:1450px) {
     .sportsbook-options {
