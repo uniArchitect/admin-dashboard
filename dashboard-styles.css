@@ -536,9 +536,25 @@ body, html {
         grid-template-rows: auto; 
     }
     
-    .login-question {
-        display: none;
+    .header {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        gap: 10px;
     }
+    
+        .header-top-left {
+            display: none;
+        }
+
+        .header-top {
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        .login-question {
+            display: none;
+        }
 
     .user-dashboard {
         grid-column: 2 / 5;
@@ -550,6 +566,18 @@ body, html {
 
         .user-dashboard-right {
             display: flex;
+            flex-direction: column;
             padding: 10px;
+            padding-bottom: 0px;
+            gap: 10px;
         }
+
+            .user-announcements {
+                margin: 0px;
+            }
+
+            .user-trending {
+                grid-template-rows: 1fr 3fr;
+                margin: 0px;
+            }
 }
