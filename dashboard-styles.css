@@ -152,6 +152,7 @@ body, html {
                 grid-column: 1 / 2;
                 font-weight: bold;
                 font-size: large;
+                color: #66fcf1;
             }
 
             .app-link {
